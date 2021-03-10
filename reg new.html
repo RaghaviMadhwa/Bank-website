@@ -1,0 +1,200 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="c.css"/>
+	<title>HOMEPAGE- THE VAULT</title>
+<script type="text/javascript" src="validate.js"></script>
+<style>
+	body {
+  background-image: url('wuf.jpg');
+background-repeat: no-repeat;
+background-attachment: fixed;
+  background-size: cover;
+
+	}
+
+	.topnav a{
+		overflow:hidden;
+		background-color: #34495E;
+	}
+
+	.topnav a{
+		float: left;
+		color: #F2F3F4;
+		text-align: center;
+		padding:14px 16px;
+		text-decoration: none;
+		font-size:17px;
+	}
+
+	.topnav a:hover{
+		background-color:#85929E;
+		color:black;
+	}
+
+	.topnav a.active{
+		background-color: #FDFEFE;
+		color:white;
+	}
+
+
+	p.ccc{border-style: outset;max-width: 200px}
+	p.aaa{border-style:outset; max-width: 200px}
+	p.bbb{border-style:outset; max-width: 200px}
+
+
+
+
+	table, th, td {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius:10px;
+    border-collapse: collapse;
+            }
+
+    q{
+    	font-size:15px;
+    }
+
+r {
+	font-size: 25px;
+}
+
+</style>
+</head>
+
+<body style=background-color:F9EBEA>
+
+	<div class="bg">
+<br><br><br><br><br><br><hr>
+<marquee style=color:white; padding=10px><b><r><pre>NOTICE!: 1) Last date of Form-6 submission is 31st March 2020.       2)Reduction in interest rate for senior citizens!      3)Online transaction new terms and conditions.      4)Benefits for new account opening.</pre></r></b></marquee>
+<hr><br>
+
+<div class="topnav">
+	<a clas="active" href="#home">Home</a>
+	<a href="#loans and insurance">LOANS AND INSURANCE</a>
+	<a href="#help and support">HELP AND SUPPORT</a>
+</div><br><br><br>
+
+
+<p style=color:white><r>Instruction for registration :
+	<ol>
+		<li style=color:white>All the fields are compulsory.</li>
+		<li style=color:white>All the information should be valid.</li>
+		<li style=color:white>Any discrepancy in the information provided by you will be held under judicial trials.</li>
+	</ol></r>
+</p>
+
+<form action="#" name="StudentRegistration" onsubmit="return(validate());">
+
+<table cellpadding="1" width="30%" bgcolor="F5F5F5" align="right"
+cellspacing="20">
+
+<tr>
+<td colspan=2>
+<center><font size=4><b>Customer Registration Form</b></font></center>
+</td>
+</tr>
+
+<tr>
+<td>Name</td>
+<td><input type=text name=textnames id="textname" size="30"></td>
+</tr>
+
+<tr>
+<td>Personal Address</td>
+<td><input type="text" name="personaladdress"
+id="personaladdress" size="30"></td>
+</tr>
+
+<tr>
+<td>Gender</td>
+<td><input type="radio" name="sex" value="male" size="10">Male
+<input type="radio" name="sex" value="Female" size="10">Female</td>
+</tr>
+
+<tr>
+<td>Date of birth</td>
+<td><input type="Date" name="dob" id="dob" size="30"></td>
+</tr>
+
+<tr>
+<td>Date of registration</td>
+<td><input type="Date" name="dob" id="dob" size="30"></td>
+</tr>
+
+<tr>
+<td>State</td>
+<td><select Name="State">
+	<option value="-----">-----</option>
+			<option value="Andhra Pradesh">Andhra Pradesh</option>
+			<option value="Arunachal Pradesh">Arunachal Pradesh</option>
+			<option value="Assam">Assam</option>
+			<option value="Bihar">Bihar</option>
+			<option value="Chattisgarh">Chattisgarh</option>
+			<option value="Goa">Goa</option>
+			<option value="Gujarat">Gujarat</option>
+			<option value="Haryana">Haryana</option>
+			<option value="Himachal Pradesh">Himachal Pradesh</option>
+			<option value="Jammu & Kashmir">Jammu & Kashmir</option>
+			<option value="Jharkhand">Jharkhnad</option>
+			<option value="Karntaka">Karnataka</option>
+			<option value="Kerala">Kerala</option>
+			<option value="Madhya Pradesh">Madhya Pradesh</option>
+			<option value="Maharashtra">Maharashtra</option>
+			<option value="Manipur">Manipur</option>
+			<option value="Meghalaya">Meghalaya</option>
+			<option value="Mizoram">Mizoram</option>
+			<option value="Nagaland">Nagaland</option>
+			<option value="Odisha">Odisha</option>
+			<option value="Punjab">Punjab</option>
+			<option value="Rajasthan">Rajasthan</option>
+			<option value="Sikkim">Sikkim</option>
+			<option value="Tamil nadu">Tamil Nadu</option>
+			<option value="Telangana">Telangana</option>
+			<option value="Tripura">Tripura</option>
+			<option value="Uttar Pradesh">Uttar Pradesh</option>
+			<option value="Uttarakhand">Uttarakhand</option>
+			<option value="West Bengal">West Bengal</option>
+</select></td>
+</tr>
+
+<tr>
+<td>PinCode</td>
+<td><input type="text" name="pincode" id="pincode" size="30"></td>
+
+</tr>
+<tr>
+<td>EmailId</td>
+<td><input type="text" name="emailid" id="emailid" size="30"></td>
+</tr>
+
+
+<tr>
+<td>MobileNo</td>
+<td><input type="text" name="mobileno" id="mobileno" size="30"></td>
+</tr>
+
+<tr>
+    <td align='center' required>Account_type:</td>
+    <td>
+	<input type="checkbox" name="Savings account">Savings account<br>
+		<input type="checkbox" name="Current account">Current account<br>
+		<input type="checkbox" name="Fixed deposit">Fixed deposit account<br>
+		<input type="checkbox" name="Recurring deposit">Recurring deposit account<br>
+		<input type="checkbox" name="NRI">NRI account<br>   
+    </td>
+	</tr>
+
+<tr>
+<td><input type="reset"></td>
+<td colspan="2">
+   <button type="submit" class="btn">SUBMIT</button></a>
+	</td>
+</tr>
+</table>
+</form>
+<br><br><br><br><br>
+
+</div>
+</body>
+</html>
